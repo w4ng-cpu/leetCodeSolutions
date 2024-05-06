@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "jest-cli": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

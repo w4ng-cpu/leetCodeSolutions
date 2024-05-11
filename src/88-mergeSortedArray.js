@@ -5,7 +5,7 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-const merge = function(nums1, m, nums2, n) {
+const merge = function (nums1, m, nums2, n) {
     const loop = m + n;
 
     for (let index = loop - 1; index >= 0; index--) {
@@ -15,8 +15,7 @@ const merge = function(nums1, m, nums2, n) {
         if (m <= 0 || nums2[n - 1] > nums1[m - 1]) {
             nums1[index] = nums2[n - 1];
             n--;
-        }
-        else {
+        } else {
             nums1[index] = nums1[m - 1];
             m--;
         }
